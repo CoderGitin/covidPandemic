@@ -1,0 +1,45 @@
+.data-banner{
+    background-image: url('../assets/images/data-banner.jpeg');
+}
+
+.grid-container {
+    margin-top: 3rem;
+    display: grid;
+    grid-gap: 3rem 3rem;
+    grid-template-columns: auto auto auto auto;
+    
+  }
+
+  .grid-item{
+     box-shadow: 0 2px 10px #00000014;
+      padding: 1.5rem;
+  }
+  .grid-item:hover{
+    box-shadow: 0px 30px 40px #33366B33;
+    cursor: pointer;
+  }
+
+  h4{
+      color: #000;
+  }
+
+  h4 span{
+      color: #34db;
+  }
+
+  .state-data{
+      margin-bottom: 3rem;
+  }
+
+  @media(max-width:991px) {
+      .grid-container{
+          grid-template-columns: auto auto auto;
+      }
+  }
+
+  @media(max-width:650px) {
+    .grid-container{
+        grid-template-columns: auto auto;
+    }
+}
+

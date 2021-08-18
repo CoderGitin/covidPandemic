@@ -1,0 +1,14 @@
+.home-banner{
+    background-image: url('../assets/images/home-banner.jpg');
+}
+
+
+
+.symptom{
+    display: flex;
+}
+
+.symptom .symptom-img img{
+    width: 100%;
+    height: 100%;
+}
